@@ -3,8 +3,15 @@
 [![Docker Image](https://badgen.net/badge/icon/docker?icon=docker&label)](https://hub.docker.com/r/gordonpn/snyk-cli-drone)
 [![Build Status](https://drone.gordon-pn.com/api/badges/gordonpn/snyk-cli-drone/status.svg)](https://drone.gordon-pn.com/gordonpn/snyk-cli-drone)
 [![License](https://badgen.net/github/license/gordonpn/snyk-cli-drone)](./LICENSE)
+[![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/gordonpn)
+
+## Deprecated
+
+Now that the Snyk engine has been integrated into Docker Engine, we can get the same scanning features by using `docker scan <image>`.
+
+<https://docs.docker.com/engine/scan/>
 
 ## Motivation
 
@@ -59,7 +66,7 @@ volumes:
 
 ## Authors
 
-Myself [@gordonpn](https://github.com/gordonpn)
+[@gordonpn](https://github.com/gordonpn)
 
 ## License
 
